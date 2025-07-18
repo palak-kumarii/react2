@@ -6,6 +6,8 @@ import React from 'react'
 import UserLoginWithGoogle from './UserLoginWithGoogle'
 import FireStore from './FireStore'
 import Cloudnary from './Cloudnary'
+import Web from './Web'
+import UseEffect from './UseEffect'
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
     {/* <CreateUserWithEmail/> */}
     {/* <UserLoginWithGoogle/> */}
     {/* <FireStore/> */}
-    <Cloudnary/>
+  {/* <Web/> */}
+  <UseEffect/>
+    {/* <Cloudnary/> */}
     </>
     // <div>App</div>
   )

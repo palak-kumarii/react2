@@ -69,9 +69,9 @@ const handleFilteredData = () =>{
 
 const handleUpdate = () =>{
    updateDoc(doc(db,"food","sugar"),{
-    name:"shyam",
-    email:"shyam@gmail.com",
-    password:"sdjbgsdfgg"
+    name:"priya",
+    email:"priya@gmail.com",
+    password:"123456"
    })
    .then(()=>{
     alert("data is update successfully")
@@ -95,15 +95,15 @@ const handleDelete = () =>{
     <div>
         <form onSubmit={handleSubmit}>
             <label>name</label>
-            <input name='name' value={form.name} onChange={handleChange}  type='text' placeholder='enter your name'/>
+            <input name='name' value={form.name} onChange={handleChange}  type='text' placeholder='enter your name'/><br/> <br/>
             <label>email</label>
-            <input name='email' value={form.email} onChange={handleChange} type='email' placeholder='enter your email'/>
+            <input name='email' value={form.email} onChange={handleChange} type='email' placeholder='enter your email'/><br/> <br/>
             <label>password</label>
-            <input name='password' value={form.password} onChange={handleChange} type='password' placeholder='enter your password' />
-            <button type='submit'>save </button>
-            <button type='button' onClick={handleData}>get data</button>
-            <button type='button' onClick={handleFilteredData}>get filtered data</button>
-            <button type='button' onClick={handleUpdate} >update data</button>
+            <input name='password' value={form.password} onChange={handleChange} type='password' placeholder='enter your password' /> <br/> <br/>
+            <button type='submit'>save </button><br/> 
+            <button type='button' onClick={handleData}>get data</button><br/>
+            <button type='button' onClick={handleFilteredData}>get filtered data</button><br/>
+            <button type='button' onClick={handleUpdate} >update data</button><br/>
             <button type='button' onClick={handleDelete} >delete data</button>
         </form>
     </div>
