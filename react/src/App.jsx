@@ -6,19 +6,32 @@ import React from 'react'
 import UserLoginWithGoogle from './UserLoginWithGoogle'
 import FireStore from './FireStore'
 import Cloudnary from './Cloudnary'
-import Web from './Web'
+// import Web from './Web'
 import UseEffect from './UseEffect'
+// import { createContext,useContext } from 'react'
+// import Child from './Child'
+import Counter from './Counter'
 
-const App = () => {
+
+
+
+function App () {
+  const name= {
+    name:"ram",
+    age :"20",
+    gender:"female"
+  }
   return (
     <>
+    {/* <Child/> */}
+   <Counter/>
     {/* <Home1/> */}
     {/* <GetData/> */}
     {/* <CreateUserWithEmail/> */}
     {/* <UserLoginWithGoogle/> */}
     {/* <FireStore/> */}
-  {/* <Web/> */}
-  <UseEffect/>
+  {/*  <Web/>   */}
+  {/* <UseEffect/> */}
     {/* <Cloudnary/> */}
     </>
     // <div>App</div>
