@@ -10,21 +10,26 @@ import Cloudnary from './Cloudnary'
 import UseEffect from './UseEffect'
 // import { createContext,useContext } from 'react'
 // import Child from './Child'
-import Counter from './Counter'
+// import Counter from './Counter'
+// import UseMemo from './UseMemo'
+// import List from './List'
+import Object from './Object'
 
 
 
-
-function App () {
-  const name= {
-    name:"ram",
-    age :"20",
-    gender:"female"
-  }
+function App() {
+  // const name = {
+  //   name:"ram",
+  //   age :"20",
+  //   gender:"female"
+  // }
   return (
     <>
+    <Object/>
+    {/* <List/> */}
+    {/* <UseMemo/> */}
     {/* <Child/> */}
-   <Counter/>
+   {/* <Counter/> */}
     {/* <Home1/> */}
     {/* <GetData/> */}
     {/* <CreateUserWithEmail/> */}
