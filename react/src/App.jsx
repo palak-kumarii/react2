@@ -26,7 +26,9 @@ import Shirt from './Shirt'
 import Tshirt from './Tshirt'
 import Location from './Location'
 import Counters from './Counters'
-
+import Video from './Video'
+import ReactPlayer from './ReactPlayer'
+import UseRef from './UseRef'
 
 function App() {
   // const name = {
@@ -60,10 +62,10 @@ function App() {
     </BrowserRouter> */}
     
 
-
-
-
-<Counters/>
+<UseRef/>
+{/* <ReactPlayer/> */}
+{/* <Video/> */}
+{/* <Counters/> */}
 
 {/* <QueryParameter/> */}
     {/* <Demo/> */}
