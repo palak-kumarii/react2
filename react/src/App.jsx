@@ -14,21 +14,28 @@ import UseEffect from './UseEffect'
 // import UseMemo from './UseMemo'
 // import List from './List'
 // import Object from './Object'
-import Reducer from './Reducer'
-import Abc from './Abc'
-import Demo from './Demo'
-import DynamicRouting from './DynamicRouting'
-import { BrowserRouter } from 'react-router-dom'
-import QueryParameter from './QueryParameter'
-import RelativePath from './RelativePath'
-import Pant from './Pant'
-import Shirt from './Shirt'
-import Tshirt from './Tshirt'
-import Location from './Location'
-import Counters from './Counters'
-import Video from './Video'
-import ReactPlayer from './ReactPlayer'
+// import Reducer from './Reducer'
+// import Abc from './Abc'
+// import Demo from './Demo'
+// import DynamicRouting from './DynamicRouting'
+// import { BrowserRouter } from 'react-router-dom'
+// import QueryParameter from './QueryParameter'
+// import RelativePath from './RelativePath'
+// import Pant from './Pant'
+// import Shirt from './Shirt'
+// import Tshirt from './Tshirt'
+// import Location from './Location'
+// import Counters from './Counters'
+// import Video from './Video'
+// import ReactPlayer from './ReactPlayer'
 import UseRef from './UseRef'
+import LineChart from './LineChart'
+import Chart1 from './Chart1'
+import Chart2 from './Chart2'
+import Chart3 from './Chart3'
+import Chart4 from './Chart4'
+import Chart5 from './Chart5'
+import Chart6 from './Chart6'
 
 function App() {
   // const name = {
@@ -39,7 +46,14 @@ function App() {
   return (
     <>
 
+<Chart1/>
+<Chart2/>
+<Chart3/>
+<Chart4/>
+<Chart5/>
+<Chart6/>
 
+{/* <LineChart/> */}
 
     {/* <BrowserRouter>
     <DynamicRouting/>
@@ -62,7 +76,7 @@ function App() {
     </BrowserRouter> */}
     
 
-<UseRef/>
+{/* <UseRef/> */}
 {/* <ReactPlayer/> */}
 {/* <Video/> */}
 {/* <Counters/> */}
