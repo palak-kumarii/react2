@@ -29,13 +29,14 @@ import UseEffect from './UseEffect'
 // import Video from './Video'
 // import ReactPlayer from './ReactPlayer'
 import UseRef from './UseRef'
-import LineChart from './LineChart'
+import LineChart from './Chart7'
 import Chart1 from './Chart1'
 import Chart2 from './Chart2'
 import Chart3 from './Chart3'
 import Chart4 from './Chart4'
 import Chart5 from './Chart5'
 import Chart6 from './Chart6'
+import Chart7 from './Chart7'
 
 function App() {
   // const name = {
@@ -52,27 +53,26 @@ function App() {
 <Chart4/>
 <Chart5/>
 <Chart6/>
+<Chart7/>
 
 {/* <LineChart/> */}
 
     {/* <BrowserRouter>
-    <DynamicRouting/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Service/:id" element={<DynamicRouting/>}/>
-        <Route path="/Contact" element={<Contact/>}/>
-        <Route path="/relative" element={<RelativePath/>}>
-              <Route index element={<Pant/>}/>
-                    <Route path="/shirt" element={<Shirt/>}/>
-                          <Route path="/t-shirt" element={<tshirt/>}/>
-        </Route>
+      <DynamicRouting/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/About" element={<About/>}/>
+          <Route path="/Service/:id" element={<DynamicRouting/>}/>
+          <Route path="/Contact" element={<Contact/>}/>
+          <Route path="/relative" element={<RelativePath/>}>
+                <Route index element={<Pant/>}/>
+                <Route path="/shirt" element={<Shirt/>}/>
+                <Route path="/t-shirt" element={<tshirt/>}/>
+          </Route>
 
           <Route path="/location" element={<Location/>}/>
-
-
-        <Route path="/*" element={<NotFound/>}/>
-      </Routes>
+          <Route path="/*" element={<NotFound/>}/>
+        </Routes>
     </BrowserRouter> */}
     
 
